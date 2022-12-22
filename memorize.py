@@ -1,6 +1,10 @@
 import pandas as pd
 import os
 
+"""a very simple question and answer application to use with the accompanied
+word-list. It's just for personal use, so it's as simple as possible.
+"""
+
 
 def load_data(shuffle=False):
     """Reads tsv file and returns DataFrame.
