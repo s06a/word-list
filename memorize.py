@@ -7,15 +7,15 @@ word-list. It's just for personal use, so it's as simple as possible.
 """
 
 
-def load_data():
+def load_data(reset=False):
     """Reads tsv file and returns DataFrame.
 
     rteurns DataFrame
     """
     df = pd.read_csv('word-list.tsv', sep='\t', header=0)
 
-    if not 'score' in df.columns:
-        df['score'] = 0
+    if (not 'score' in df.columns) or (reset == True):
+        df['score'] = 1
 
     return df.sort_values(by=['score'])
 
@@ -41,11 +41,12 @@ def clear_cli():
     return None
 
 
-def question(question, answer):
+def question(question, answer, score):
     """Asks question, shows the answer, checks if user memorized the question.
 
     question is string
     answer is string
+    score is float
     returns none
     """
     memorized = False
@@ -57,9 +58,12 @@ def question(question, answer):
         print('\n  meaning: ', answer, '\n')
         if input('  do you recall it? (y: 1): ') == '1':
             memorized = True
+            score *= 1.02
+        else:
+            score *= 0.98
         clear_cli()
 
-    return None
+    return score
 
 
 def question_loop(df):
@@ -69,8 +73,8 @@ def question_loop(df):
     returns None
     """
     for index, row in df.iterrows():
-        question(row['word'], row['meaning'])
-        df.loc[df['word'] == row['word'], 'score'] = 1
+        score = question(row['word'], row['meaning'], row['score'])
+        df.loc[df['word'] == row['word'], 'score'] = round(score, 2)
         write_data(df)
         df = load_data()
     return None
