@@ -1,23 +1,34 @@
 import pandas as pd
 import os
+import shutil
 
 """a very simple question and answer application to use with the accompanied
 word-list. It's just for personal use, so it's as simple as possible.
 """
 
 
-def load_data(shuffle=False):
+def load_data():
     """Reads tsv file and returns DataFrame.
 
-    shuffle is bool
     rteurns DataFrame
     """
     df = pd.read_csv('word-list.tsv', sep='\t', header=0)
 
-    if shuffle == True:
-        return df.sample(frac=1)
+    if not 'score' in df.columns:
+        df['score'] = 0
 
-    return df
+    return df.sort_values(by=['score'])
+
+
+def write_data(df):
+    """Write DataFrame to tsv file.
+
+    returns None
+    """
+
+    df.to_csv('word-list.tsv', sep='\t', index=False)
+
+    return None
 
 
 def clear_cli():
@@ -40,11 +51,11 @@ def question(question, answer):
     memorized = False
 
     while not memorized:
-        print('\nword: ', question, '\n')
-        input('press enter to see the meaning ')
+        print('\n  word: ', question, '\n')
+        input('  press enter to see the meaning ')
         clear_cli()
-        print('\nmeaning: ', answer, '\n')
-        if input('memorized? (yes: 1): ') == '1':
+        print('\n  meaning: ', answer, '\n')
+        if input('  do you recall it? (y: 1): ') == '1':
             memorized = True
         clear_cli()
 
@@ -59,12 +70,13 @@ def question_loop(df):
     """
     for index, row in df.iterrows():
         question(row['word'], row['meaning'])
-
+        df.loc[df['word'] == row['word'], 'score'] = 1
+        write_data(df)
+        df = load_data()
     return None
 
 
 if __name__ == "__main__":
-    shuffle = input('shuffle? (y:1)') == '1'
-    df = load_data(shuffle)
+    df = load_data()
     clear_cli()
     question_loop(df)

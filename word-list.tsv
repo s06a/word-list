@@ -1,68 +1,68 @@
-word	meaning
-hectic	frenzied, manic, restless
-tribulation	trouble, worry, anxiety
-bud	sprout, germinate, burgeon
-flagging	declining in strength
-unscathed	without suffering any injury, damage, or harm
-antidote	antitoxin, cure, remedy
-precursor	forerunner, predecessor
-gerontocracy	governed by old people
-braggart	person who boasts or brags about their achievements or possessins
-entice	tempt, allure, attract
-adorn	embellish, decorate, furnish, enhance
-malevolent	malicious, spiteful, hostile
-connote	indicate, suggest, imply
-stray	move away aimlessly, get lost
-renovate	modernize, restore, redecorate, refurbish
-drowsiness	sleepiness, tiredness, fatigue
-disrobe	undress
-xenophile	person who loves foreign people and culture
-suffocate	die from lack of air or inability to breathe, be breathless
-affinity	empathy, natural liking for someone or something
-appease	make quiet or calm
-fictitious	false, fake, fabricated, counterfeit, sham, bogus
-serendipitous	chance, accidental, fortuitious, unexpected (in a good way)
-grandiose	magnificent, impressive, grand, splendid
-persecution	oppression, victimization, mistreatment
-awash	flooded, submerged, engulfed
-dignified	noble, ceremonious, stately, courtly, majestic, distinguished
-smattering	little, bit, modicum, small amount
-interminable	endless, ceaseless, incessant, monotonous
-squirm	wriggle, contort, wiggle, writhe, or twist the body duo to nervousness or discomfort
-matriarch	head of a family (a woman)
-cackle	laugh loudly and harshly
-sedative	calming, inducing sleep, tranquillizing
-thud	crash, smash, smack, bang, strike with a heavy sound
-spook	ghost, frighten, unnerve
-savvy	shrewdness, astuteness, shrewd, astute, acute, intelligent
-in lieu	instead
-speck	mark with small spots
-revelation	disclosure, declaration, utterance
-grudging	reluctant, unwilling, half-hearted
-critique	analysis, evaluation, assessment, appraisal
-don	put on, get dressed, get into
-interrogation	questioning, probing
-ditzy	silly, foolish, giddy
-embroil	involve, entangle (in argument, conflict, or difficult sitation)
-drizzle	light rain
-snug	cosy, comfortable, warm, friendly
-emerald	bright green precious stone
-deferment	postponement, deferral, suspension, adjournment
-fringe	outer edge of an area or group, edge, border, hair over the forehead
-rummage	unsystematic and untidy search through something
-gutter	groove or channel for flowing liquid (for rainwater)
-whir	white noise of rapidly rotating or moving to and fro (like an air fan)
-transference	action or process of transerring or being transferred
-irate	great anger
-incipient	just beginning to exist
-stipulate	demand or specify a condition as part of an agreement
-disdain	contempt, scorn, derision
-belligerent	hostile, aggressive, threatening, antagonistic, pugnacious
-brash	self-assertive in a rude, noisy way, ostentaious or tasteless appearance
-ostentatious	pretentious, showy, conspicuous, obtrusive, flamboyant, gaudy
-gaudy	extravagantly bright or showy in a tasteless way, garish, lurid
-impudent	not showing respect for others, shameless
-impertinent	rude, insolent, impolite, unmannerly, irrelevant (not pertinent)
-castigate	reprimand, rebuke, admonish, chastise, chide, upbraid, reprove
-sordid	immoral or dishonourable actions or motives, dirty, filthy
-squalid	dirty, filthy, improper
+word	meaning	score
+thud	crash, smash, smack, bang, strike with a heavy sound	0
+tribulation	trouble, worry, anxiety	0
+bud	sprout, germinate, burgeon	0
+flagging	declining in strength	0
+unscathed	without suffering any injury, damage, or harm	0
+antidote	antitoxin, cure, remedy	0
+precursor	forerunner, predecessor	0
+gerontocracy	governed by old people	0
+braggart	person who boasts or brags about their achievements or possessins	0
+entice	tempt, allure, attract	0
+adorn	embellish, decorate, furnish, enhance	0
+malevolent	malicious, spiteful, hostile	0
+connote	indicate, suggest, imply	0
+stray	move away aimlessly, get lost	0
+renovate	modernize, restore, redecorate, refurbish	0
+drowsiness	sleepiness, tiredness, fatigue	0
+disrobe	undress	0
+xenophile	person who loves foreign people and culture	0
+suffocate	die from lack of air or inability to breathe, be breathless	0
+affinity	empathy, natural liking for someone or something	0
+appease	make quiet or calm	0
+fictitious	false, fake, fabricated, counterfeit, sham, bogus	0
+serendipitous	chance, accidental, fortuitious, unexpected (in a good way)	0
+grandiose	magnificent, impressive, grand, splendid	0
+persecution	oppression, victimization, mistreatment	0
+awash	flooded, submerged, engulfed	0
+dignified	noble, ceremonious, stately, courtly, majestic, distinguished	0
+smattering	little, bit, modicum, small amount	0
+interminable	endless, ceaseless, incessant, monotonous	0
+squirm	wriggle, contort, wiggle, writhe, or twist the body duo to nervousness or discomfort	0
+matriarch	head of a family (a woman)	0
+cackle	laugh loudly and harshly	0
+sedative	calming, inducing sleep, tranquillizing	0
+squalid	dirty, filthy, improper	0
+spook	ghost, frighten, unnerve	0
+savvy	shrewdness, astuteness, shrewd, astute, acute, intelligent	1
+in lieu	instead	0
+speck	mark with small spots	0
+revelation	disclosure, declaration, utterance	0
+grudging	reluctant, unwilling, half-hearted	0
+critique	analysis, evaluation, assessment, appraisal	0
+don	put on, get dressed, get into	0
+interrogation	questioning, probing	0
+ditzy	silly, foolish, giddy	0
+embroil	involve, entangle (in argument, conflict, or difficult sitation)	0
+drizzle	light rain	0
+snug	cosy, comfortable, warm, friendly	0
+emerald	bright green precious stone	0
+deferment	postponement, deferral, suspension, adjournment	0
+fringe	outer edge of an area or group, edge, border, hair over the forehead	0
+rummage	unsystematic and untidy search through something	0
+gutter	groove or channel for flowing liquid (for rainwater)	0
+whir	white noise of rapidly rotating or moving to and fro (like an air fan)	0
+transference	action or process of transerring or being transferred	0
+irate	great anger	0
+incipient	just beginning to exist	0
+stipulate	demand or specify a condition as part of an agreement	0
+disdain	contempt, scorn, derision	0
+belligerent	hostile, aggressive, threatening, antagonistic, pugnacious	0
+brash	self-assertive in a rude, noisy way, ostentaious or tasteless appearance	0
+ostentatious	pretentious, showy, conspicuous, obtrusive, flamboyant, gaudy	0
+gaudy	extravagantly bright or showy in a tasteless way, garish, lurid	0
+impudent	not showing respect for others, shameless	0
+impertinent	rude, insolent, impolite, unmannerly, irrelevant (not pertinent)	0
+castigate	reprimand, rebuke, admonish, chastise, chide, upbraid, reprove	0
+sordid	immoral or dishonourable actions or motives, dirty, filthy	0
+hectic	frenzied, manic, restless	1
