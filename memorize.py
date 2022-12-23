@@ -42,6 +42,7 @@ def question(question, answer):
     while not memorized:
         print('\nword: ', question, '\n')
         input('press enter to see the meaning ')
+        clear_cli()
         print('\nmeaning: ', answer, '\n')
         if input('memorized? (yes: 1): ') == '1':
             memorized = True
