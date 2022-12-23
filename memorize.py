@@ -1,9 +1,16 @@
 import pandas as pd
 import os
+import sqlite3
 
 """a very simple question and answer application to use with the accompanied
 word-list. It's just for personal use, so it's as simple as possible.
 """
+
+
+def init_database(df):
+    con = sqlite3.connect('test.db')
+    df.to_sql('data', con, if_exists='replace')
+    return con
 
 
 def load_data(shuffle=False):
@@ -67,4 +74,7 @@ if __name__ == "__main__":
     shuffle = input('shuffle? (y:1)') == '1'
     df = load_data(shuffle)
     clear_cli()
-    question_loop(df)
+#    question_loop(df)
+    con = init_database(df)
+    data = pd.read_sql_query("SELECT * FROM data", con)
+    print(data)
